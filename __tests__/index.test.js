@@ -5,7 +5,7 @@ import path from 'path';
 import testingLibrary from '@testing-library/dom';
 import userEvent from '@testing-library/user-event';
 import nock from 'nock';
-import run from '../src/application.js';
+import run from '../src/app.js';
 
 const { screen, waitFor } = testingLibrary;
 nock.disableNetConnect();
